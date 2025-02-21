@@ -22,6 +22,6 @@ class BankAccount:
 account = BankAccount("010406060506", "Clare Mangle", 5000)
 account.display_balance()
 account.deposit(1000)
-account.withdraw(3500)
-account.withdraw(3000)
+account.withdraw(1500)
+account.withdraw(2000)
 account.display_balance()
